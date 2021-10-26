@@ -1,7 +1,6 @@
 package com.example.formulario.formularioatelie.controller;
 
 import com.example.formulario.formularioatelie.model.entity.Cliente;
-import com.example.formulario.formularioatelie.model.entity.enums.TipoContato;
 import com.example.formulario.formularioatelie.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
