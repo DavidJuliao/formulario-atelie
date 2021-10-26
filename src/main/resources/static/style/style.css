@@ -1,0 +1,346 @@
+header{
+    background: #eee4c8ab;
+    padding: 20px;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #7a231d;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #7a231d;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: #c78c19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos li:active{
+    border-color: #53a80ece;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    color:  #7a231d;
+}
+
+.produtos-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:  #7a231d;
+}
+
+.produto-descricao{
+    font-size: 18px;
+    color:  #7a231d;
+}
+
+footer{
+    text-align: center;
+    background: #eee4c8ab;
+    padding: 40px;
+}
+
+.copyright{
+    color: #7a231d;
+    font-size: 13px;
+
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;   
+    padding: 10px 25px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    width: 50% !important;
+    margin: auto;
+    text-align: center;
+}
+
+#mensagem {
+        border: none;
+    border-radius: 5px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 20%;
+    padding: 8px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+.enviar-compra {
+    width: 30%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar-compra:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #e2e2cdab;
+    color: #7a231d;
+    font-weight:bold;
+}
+
+td, th {
+    padding: 8px 15px;
+    color: #7a231d;
+}
+
+.label-personalizar, .legend-personalizar, .customizarlabel {
+    color: #7a231d;
+}
+
+.label-personalizar-especial {
+    font-size: small;
+    color: #7a231d;
+}
+
+.customizarlabel {
+    color: #7a231d;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 3em;
+    color: #7a231d;
+    margin: 0 0 1em;
+    clear: left;
+    font-family: 'Dancing Script', cursive;
+}
+
+.principal p {
+    color: #7a231d;
+    margin: 0 0 1em;
+}
+
+.primeiralogo{
+    width: 130px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.fundadorafatima{
+    width: 220px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal strong {
+    color: #7a231d;
+    font-weight: bold;
+}
+
+.principal em {
+    color: #7a231d;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;      
+}
+
+.quemsomos-casa {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #eee4c8ab);
+}
+
+.essencia-casa {
+    padding: 0 13em 2em;
+    text-align: justify;
+    color: #7a231d;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #eee4c8ab);
+}
+
+.mapa p {
+    padding: 0 0 2em;
+    text-align: center;
+    color: #7a231d;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+    padding: 3em 0;
+}
+
+.imagem-fundadora {
+    opacity: 1;
+    transition: 400ms;
+    width: 200px;
+    float: left;
+    margin: 0 40px 40px 0;
+    padding-left: 4em;
+}
+
+.imagem-fundadora:hover {
+    opacity: 0.3;
+}
+
+.conteudofundadora {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0 2em;
+    color: #7a231d;
+    text-align: justify;
+    }
+
+.conteudofundadoraespecial {
+    width: 60%;
+    vertical-align: top;
+    padding: 0 19em 2em;
+    color: #7a231d;
+    text-align: justify;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940PX;
+    margin: 0 auto;
+}
+
+.fundadora {
+    padding: 3em 8em;
+    background: #eee4c8ab;
+}
+
+.mapa-conteudo {
+    width: 940PX;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .imagem-fundadora, .mapa, .mapa-conteudo, .video, .conteudofundadora {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    .imagem-fundadora, .conteudofundadora {
+        width: 100%;
+    }
+}
+
+.conteudo-form, .conteudo-formulario {
+    padding: 3em;
+    background-image: url(images/maos.jpg);
+    text-align: center;
+}
+
+.tabela {
+    width: 25% !important;
+    padding-left: 3em;
+    margin: auto;
+}
+
+.conteudo-form-one {
+    padding: 3em;
+    background-image: url(images/maos-one.jpg);
+}
+
+.nossaHistoria {
+    text-align: justify;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.quemsomos-casa {
+    text-align: center;
+    background: #fefefe;
+}
